@@ -5,3 +5,5 @@
  */
 
 // You can delete this file if you're not using it
+
+/* Allow us to use something like: import { X } from 'directory' instead of '../../folder/directory' */
