@@ -4,9 +4,9 @@ import React from "react"
 import logo from "../images/jerk-text.svg"
 
 const Header = () => (
-  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <div class="navbar-item">
+  <nav className="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div className="navbar-brand">
+      <div className="navbar-item">
         <Link to="/">
         <img src={logo} height="52" alt="logo" />
         </Link>

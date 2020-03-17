@@ -11,11 +11,11 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="columns is-multiline">
       <div className="column">
-        <p class="title is-2 has-text-centered has-text-primary">About</p>
+        <p className="title is-2 has-text-centered has-text-primary">About</p>
         <About />
       </div>
       <div className="column is-half">
-        <p class="title is-2 has-text-centered has-text-primary">Upcoming Streams</p>
+        <p className="title is-2 has-text-centered has-text-primary">Upcoming Streams</p>
         <Schedule />
       </div>
     </div>

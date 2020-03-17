@@ -2,20 +2,22 @@ import React from 'react';
 
 const Schedule = () => (
 	<div className="">
-        <div class="table-container">
-            <table class="table is-fullwidth">
-                <tr>
-                    <td> Band Name</td>
-                    <td> March 30, 7pm </td>
-                </tr>
-                <tr>
-                    <td> Band Name</td>
-                    <td> March 30, 7pm </td>
-                </tr>
-                <tr>
-                    <td> Band Name</td>
-                    <td> March 30, 7pm </td>
-                </tr>
+        <div className="table-container">
+            <table className="table is-fullwidth">
+                <tbody>
+                    <tr>
+                        <td> Band Name</td>
+                        <td> March 30, 7pm </td>
+                    </tr>
+                    <tr>
+                        <td> Band Name</td>
+                        <td> March 30, 7pm </td>
+                    </tr>
+                    <tr>
+                        <td> Band Name</td>
+                        <td> March 30, 7pm </td>
+                    </tr>
+                </tbody>
             </table>
         </div>
 	</div>
