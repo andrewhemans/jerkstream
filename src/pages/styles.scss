@@ -39,6 +39,16 @@ p.title.is-2.has-text-centered {
     margin-top: 60px;
 }
 
+.chat-window {
+    border-left: 1px solid rgb(206, 214, 223);
+    border-bottom: 1px solid rgb(206, 214, 223);
+    border-radius: 3px;
+}
+
+.info-window {
+
+}
+
 @import "~bulma/bulma.sass";
 @import "~bulma/sass/utilities/_all.sass";
 @import ".~bulma/sass/base/_all.sass";
