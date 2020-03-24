@@ -12,7 +12,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./layout.css"
 import TwitchStream from "./TwitchStream"
-import StreamInfo from "./StreamInfo"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -29,7 +28,6 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <TwitchStream />
-      <StreamInfo />
       <div
         style={{
           margin: `0 auto`,
