@@ -67,6 +67,13 @@ module.exports = {
         spreadsheetId: '1Q8B_VN4QN18TNyAeRuyv8yqq6RJEvxXsfeH9TzMlzCg',
       }
     },
+    {
+      resolve: `gatsby-source-twitch`,
+      options: {
+        userID: process.env.TWITCH_ID,
+        clientID: process.env.TWITCH_CLIENT
+      },
+    },
 // {
 //   resolve: "gatsby-source-google-spreadsheet",
 //   options: {
