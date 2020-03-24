@@ -27,6 +27,13 @@ const IndexPage = () => {
               <li><a href="https://www.musicgoround.com/locations/stockton-ca">Stockton Music Go Round</a></li>
             </ul>
           </div>
+          <div className="column is-half">
+            <p className="title is-2 has-text-centered has-text-primary">Band Archive</p>
+            <ul>
+              <p>Let's start an archive of bands in our area!</p>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc0jyjGIqwK1yINhi1lRNcjanYlIFO3EkFftG5s5wIGqq-mRg/viewform?usp=sf_link">Add your band to this form</a></li>
+            </ul>
+          </div>
         </div>
       </Layout>
     );
