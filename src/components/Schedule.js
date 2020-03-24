@@ -16,6 +16,10 @@ const Schedule = () => (
                         <p>Geovanie Brooks</p>
                     </li>
                     <li className="schedule-item">
+                        <p className="date-time"> March 28, 7pm </p>
+                        <p>Melchor Sahagun III</p>
+                    </li>
+                    <li className="schedule-item">
                         <p className="date-time"> March 29, 7pm </p>
                         <p>Andrew plays Total Bummer</p>
                     </li>
