@@ -3,25 +3,25 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Video from './Video';
 
 const VideosGrid = () => {
-	const data = useStaticQuery(graphql`
-		query {
-			allYoutubeVideo(limit: 6) {
-				edges {
-					node {
-						title
-						videoId
-						publishedAt
-						description
-						thumbnail {
-							height
-							url
-							width
-						}
-					}
-				}
-			}
-		}
-	`);
+	// const data = useStaticQuery(graphql`
+	// 	query {
+	// 		allYoutubeVideo(limit: 6) {
+	// 			edges {
+	// 				node {
+	// 					title
+	// 					videoId
+	// 					publishedAt
+	// 					description
+	// 					thumbnail {
+	// 						height
+	// 						url
+	// 						width
+	// 					}
+	// 				}
+	// 			}
+	// 		}
+	// 	}
+	// `);
 
 	return (
 		<div className="columns is-multiline is-mobile">

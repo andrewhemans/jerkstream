@@ -8,9 +8,9 @@ const TwitchStream = () => (
             src="https://player.twitch.tv?channel=andrewhemans" 
             title="TwitchStream"
             width="100%" 
-            frameborder="0" 
+            frameBorder="0" 
             scrolling="no" 
-            allowfullscreen></iframe>
+            allowFullScreen></iframe>
 	</div>
 );
 
