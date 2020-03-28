@@ -29,9 +29,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <Stream />
-      {/* <TwitchStream /> */}
-      {/* <StreamInfo /> */}
+      {/* <Stream /> */}
+      <TwitchStream />
+      <StreamInfo />
       <div
         style={{
           margin: `0 auto`,

@@ -5,7 +5,7 @@ const StreamInfo = () => (
         <div className="column">
             <div className="info-window">
                 <p className="title is-2 has-text-centered has-text-primary">Geovanie Brooks</p>
-                <p className="has-text-centered">Leave Matt a Tip! Venmo: @mattmouart </p>
+                <p className="has-text-centered">Leave Geo a Tip! Venmo: @geovaniebrooks </p>
                 <p className="has-text-centered">Find Geo on Instagram <a href="https://www.instagram.com/pizzaguy_blues/">@pizzaguy_blues</a></p>
                 <p className="has-text-centered">Check out Geo's band on Bandcamp <a href="https://staticsymphony.bandcamp.com/">https://staticsymphony.bandcamp.com/</a></p>
             </div>
