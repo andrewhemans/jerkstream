@@ -4,10 +4,10 @@ const StreamInfo = () => (
 	<div className="columns is-gapless">
         <div className="column">
             <div className="info-window">
-                <p className="title is-2 has-text-centered has-text-primary">Geovanie Brooks</p>
-                <p className="has-text-centered">Leave Geo a Tip! Venmo: @geovaniebrooks </p>
-                <p className="has-text-centered">Find Geo on Instagram <a href="https://www.instagram.com/pizzaguy_blues/">@pizzaguy_blues</a></p>
-                <p className="has-text-centered">Check out Geo's band on Bandcamp <a href="https://staticsymphony.bandcamp.com/">https://staticsymphony.bandcamp.com/</a></p>
+                <p className="title is-2 has-text-centered has-text-primary">Melchor Sahagun III</p>
+                <p className="has-text-centered">Leave Melchor a Tip! Venmo: @melchor-sahagun paypal: bornfaildie@gmail.com</p>
+                <p className="has-text-centered">Find Melchor on Instagram <a href="https://www.instagram.com/smokerbuddy/">@smokerbuddy</a></p>
+                <p className="has-text-centered">Check out Melchor's prject Stilt Lives on Bandcamp <a href="https://stiltlives.bandcamp.com/releases">stiltlives.bandcamp.com/</a></p>
             </div>
         </div>
         <div className="column is-one-third chat-window">
