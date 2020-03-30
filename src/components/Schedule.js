@@ -4,10 +4,6 @@ const Schedule = () => (
 	<div className="">
                 <ul className="schedule-list">
                     <li className="schedule-item">
-                        <p className="date-time"> March 28, 7pm PST</p>
-                        <p>Melchor Sahagun III</p>
-                    </li>
-                    <li className="schedule-item">
                         <p className="date-time"> March 29, 7pm PST</p>
                         <p>Andrew plays Total Bummer</p>
                     </li>
