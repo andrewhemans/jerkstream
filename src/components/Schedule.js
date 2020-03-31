@@ -12,6 +12,10 @@ const Schedule = () => (
                         <p>Andrew plays Papa Roach, Creed & More!</p>
                     </li>
                     <li className="schedule-item">
+                        <p className="date-time"> April 3, 7pm PST</p>
+                        <p>BrightSideMusic</p>
+                    </li>
+                    <li className="schedule-item">
                         <p className="date-time"> April 5, 7pm PST</p>
                         <p>Oliver Opus, Andrew Hemans, James Jackson</p>
                     </li>
