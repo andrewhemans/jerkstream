@@ -13,7 +13,6 @@ import Header from "./header"
 import "./layout.css"
 import TwitchStream from "./TwitchStream"
 import StreamInfo from "./StreamInfo"
-import Stream from "./Stream"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -29,9 +28,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      {/* <Stream /> */}
       <TwitchStream />
-      {/* <StreamInfo /> */}
+      <StreamInfo />
       <div
         style={{
           margin: `0 auto`,
